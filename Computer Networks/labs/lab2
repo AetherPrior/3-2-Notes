@@ -1,0 +1,14 @@
+dig 
+-x reverse dns
+@<ip/hostname> specify DNS server (otherwise use system default)
+eg. @8.8.8.8 or @dns.google.com
+
+
+ttl - time to live (after which it's discarded by router)
+txt query: stores "meta information" or sth, like gatway etc.
+
+A Start of Authority record is a type of resource record in the Domain Name System containing administrative information about the zone,
+
+A recursive DNS lookup is where one DNS server communicates with several other DNS servers to hunt down an IP address and return it to the client. This is in contrast to an iterative DNS query, where the client communicates directly with each DNS server involved in the lookup. While this is a very technical definition, a closer look at the DNS system and the difference between recursion and iteration should help clear things up.
+
+Destination port, source port = 53 (confirm)

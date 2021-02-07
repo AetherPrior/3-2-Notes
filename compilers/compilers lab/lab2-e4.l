@@ -7,7 +7,7 @@ int word=0;
 
 %%
 [0123456789]+ {num=1;return;}
-[0-9]*[a-zA-Z][0-9]*  {word=1; return;}
+[a-zA-Z][a-zA-Z0-9]*  {word=1; return;} //123 -> number, abc-> word, abc123 -> word (first rule isn't matching)
 %%
 main(){
 yylex();

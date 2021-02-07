@@ -1,0 +1,2 @@
+networks are on broadcast mode wirelessly
+so promiscuous mode in wireshark can snoop that, but it'll be encrypted

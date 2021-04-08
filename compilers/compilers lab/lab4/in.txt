@@ -1,6 +1,0 @@
-This is bits
-
-hello
-
-end
-hello 5

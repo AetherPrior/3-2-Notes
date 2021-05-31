@@ -4,3 +4,6 @@ passwd.txt
 ..bfg-report
 *.xopp~
 a.out
+*.ods
+*.ppt
+*.pptx
